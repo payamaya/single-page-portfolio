@@ -75,3 +75,39 @@ cubic-bezier(0, 0, 1, 1)
 box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 
 }
+
+@media screen and (min-width: 1800px){
+ .button{
+  margin-bottom: 51rem;
+  right: 30rem;
+ }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1600px){
+  .button{
+    right: 25rem;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .button{
+    bottom: 50rem;
+    right: 20rem;
+  }
+}
+@media screen and ( min-width: 1250px){
+  button{
+    right: 19rem;
+  }
+}
+@media screen and ( min-width: 1100px) and (max-width:1050px){
+  button{
+    right: 19rem;
+  }
+}
+@media screen and (min-width: 950px) and (max-width:1050px){
+  .button{
+    bottom: 10rem;
+    right: 1rem;
+  }
+}

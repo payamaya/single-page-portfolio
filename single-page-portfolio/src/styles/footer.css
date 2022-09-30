@@ -1,13 +1,63 @@
-.footer{
- background-color: #caf3e5;
-padding: 2rem;
+.footer {
+  background-color: #caf3e5;
+  padding: 2rem;
+  width: 100vw;
 }
-.footer-grid{
- display: grid;
- grid-template-rows: repeat(4,60px) ;
- grid-template-columns: repeat(5,1fr);
- gap: 20px;
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 60px);
+  gap: 20px;
 }
-.f-item{
+/* .f1{
  background-color: #b772fc;
+} */
+.f1 {
+  grid-column: 1/2;
+  /*   background-color: blueviolet; */
+  grid-row: 1 / span 3;
+  justify-content: flex-start;
+  align-items: 2rem;
+  flex-direction: column;
 }
+.f-links {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-style: 1.8rem;
+}
+.f2 {
+  grid-column: 2/3;
+  grid-row: 1 / span 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 0 3rem 0;
+  margin-left: 2rem;
+}
+.f2 span {
+  display: flex;
+}
+
+.f2 p{
+ margin: 0.6rem 0 0 1.6rem;
+}
+.f3 {
+  grid-column: 3/4;
+  grid-row: 1 / span 3;
+  display: flex;
+  font-display: column;
+}
+.f3 p{
+ font-weight: 700;
+ font-style: 4rem;
+
+}
+ .f-icons{
+  margin-top: 1rem;
+ }
+ .f-icons img{
+  margin-right: 4rem;
+ }

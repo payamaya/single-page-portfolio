@@ -4,8 +4,7 @@
  grid-template-columns: repeat(2, 1fr);
 }
 .a-item-one{
- background-color: #e5ccfe;
-
+ background-color:#e5ccfe;
 }
 .a-item-two{
  padding: 6rem;
@@ -14,3 +13,6 @@
  align-items: center;
  background-color: grey;
 }
+/* .container h1{
+ font-family:"Silkscreen",
+} */

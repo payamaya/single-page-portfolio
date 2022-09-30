@@ -3,8 +3,6 @@ const Cards=()=>{
  return(
   <div className="cards">
    <div className="cards-list">
-
-
     <div className="card 1">
      <div className="card-img"></div>
       <div className="card-title">
@@ -12,7 +10,7 @@ const Cards=()=>{
       </div>
     </div>
     <div className="card 2">
-     <div className="card-img"></div>cd
+     <div className="card-img"></div>
       <div className="card-title">
        <p>Cards två</p>
       </div>

@@ -1,0 +1,49 @@
+.contact-title {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 20em;
+  letter-spacing: 1px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+.form-input,
+.message {
+  padding: 0.8rem 0rem 0.5rem 0.8rem;
+  font-size: 1.5rem;
+  color: #6608b2;
+  letter-spacing: 1px;
+  border: 2px solid #6608b2;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 0px 0px rgb(119, 46, 191);
+  -moz-box-shadow: 0px 7px 0px 0px rgb(119, 46, 191);
+  box-shadow: 0px 7px 0px 0px rgb(119, 46, 191);
+}
+
+.form-input::placeholder,
+.message::placeholder {
+  color: rgb(105, 32, 177);
+  font-family: 'Space Mono', monospace;
+}
+
+.message {
+  margin-bottom: 2rem;
+}

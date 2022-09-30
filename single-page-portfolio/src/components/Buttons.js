@@ -1,5 +1,4 @@
 import  "../styles/buttons.css"
-
 const Buttons = () =>{
  return(
   <div className="buttons">

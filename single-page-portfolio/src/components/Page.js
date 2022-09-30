@@ -6,17 +6,21 @@ import Intro from './Intro'
 /* import Buttons from './Buttons' */
 import Cards from './Cards'
 import Footer from './Footer'
+import Uncontrolled from '../forms/UnControlled'
+import Controlled from '../forms/Controlled'
+import ContactForm from './ContactForm'
 const Page = () => {
   return (
     <>
       <Header />
       <Layout>
-        <Intro/>
-        <Cards/>
+        <Intro />
+        <Cards />
         <About />
-        <Contact />
+        <ContactForm/>
+        <Contact></Contact>
       </Layout>
-      <Footer/>
+      <Footer />
     </>
   )
 }

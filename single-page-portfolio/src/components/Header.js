@@ -13,7 +13,7 @@ const Header = () => {
               smooth={true}
               duration={500}
             >
-              Menu Item
+              Home
             </Link>
           </li>
           <li className='navbar-links-item'>
@@ -24,11 +24,11 @@ const Header = () => {
               smooth={true}
               duration={500}
             >
-              Menu Item
+             About
             </Link>
           </li>
           <li className='navbar-links-item'>
-            <div className='btn-nav'>Menu Item</div>
+            <div className='btn-nav'>GitPages</div>
           </li>
           <li className='navbar-links-item'>
             <div className='btn-nav'>Menu Item</div>

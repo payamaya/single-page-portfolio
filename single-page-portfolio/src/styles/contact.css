@@ -1,0 +1,9 @@
+.contact{
+ padding: 5rem 15rem 8rem 25rem;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-color: lightpink;
+}
